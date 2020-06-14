@@ -5,6 +5,7 @@ require 'rack'
 require 'capybara'
 require 'capybara/apparition'
 
+# https://nts.strzibny.name/how-to-test-static-sites-with-rspec-capybara-and-webkit/
 class BridgetownWebsite
   attr_reader :root, :server
 
@@ -39,15 +40,16 @@ Capybara.app = Rack::Builder.new do
   end
 end.to_app
 
+Capybara.register_driver :apparition do |app|
+  Capybara::Apparition::Driver.new(app, {})
+end
+
 # port and url to webpack server
 WEB_TEST_PORT = '4001'
 WEB_TEST_URL = "http://localhost:#{WEB_TEST_PORT}"
 
 Capybara.default_selector = :css
 Capybara.javascript_driver = :apparition
-Capybara.register_driver :apparition do |app|
-  Capybara::Apparition::Driver.new(app, {})
-end
 Capybara.default_driver = :rack_test
 Capybara.app_host = WEB_TEST_URL
 Capybara.server = :webrick
@@ -55,6 +57,7 @@ Capybara.run_server = true
 
 BUILD = Rake.sh('yarn webpack-build && bridgetown build')
 
+# https://www.mikeperham.com/2018/10/12/testing-rubys-cgi/
 WEBRICK = Thread.new do
   require 'webrick'
 
@@ -67,9 +70,6 @@ WEBRICK = Thread.new do
   puts "Starting Webrick on port #{WEB_TEST_PORT}"
   server.start
 end
-
-# Point Capybara to Webrick!
-Capybara.app_host = WEB_TEST_URL
 
 require 'capybara/minitest'
 
