@@ -18,10 +18,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 #
 # Happy Bridgetowning!
 
-gem 'apparition', '~> 0.4'
+gem 'apparition', '~> 0.5'
 gem 'bridgetown', '~> 0.15.0.beta3'
 gem 'capybara', '~> 3.3'
 gem 'rack'
 gem 'rake', '~> 13.0'
-gem 'selenium-webdriver'
-gem 'childprocess'
