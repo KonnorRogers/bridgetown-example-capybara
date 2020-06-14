@@ -1,0 +1,138 @@
+2020-06-14 07:34:51.940534 UTC - [Child 30414: Main Thread]: D/nsSocketTransport STS dispatch [0x7fa49695ca30]
+2020-06-14 07:34:51.940534 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS thread init 1000 sockets
+2020-06-14 07:34:51.940579 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent() using pipe
+2020-06-14 07:34:51.940603 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent() ctor ok
+2020-06-14 07:34:51.940606 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::MarkFirstSignalTimestamp
+2020-06-14 07:34:51.940631 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:51.940631 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS poll iter
+2020-06-14 07:34:51.940645 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::AdjustFirstSignalTimestamp
+2020-06-14 07:34:51.940650 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport   calling PR_Poll [active=0 idle=0]
+2020-06-14 07:34:51.940653 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:51.940657 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     timeout = 0 milliseconds
+2020-06-14 07:34:51.940667 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     ...returned after 0 milliseconds
+2020-06-14 07:34:51.940675 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear
+2020-06-14 07:34:51.940679 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear time to signal 0ms
+2020-06-14 07:34:51.940689 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear PR_Read 1
+2020-06-14 07:34:51.940694 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS dispatch [0x7fa49695cbe0]
+2020-06-14 07:34:51.940698 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport OnDispatchedEvent Same Thread Skip Signal
+2020-06-14 07:34:51.940708 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport nsSocketTransportService::OnKeepaliveEnabledPrefChange enabled
+2020-06-14 07:34:51.940716 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS poll iter
+2020-06-14 07:34:51.940721 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport   calling PR_Poll [active=0 idle=0]
+2020-06-14 07:34:51.940725 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     timeout = -1 milliseconds
+2020-06-14 07:34:52.372854 UTC - [Child 30414: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7fa4a5ccaa38]
+2020-06-14 07:34:53.676629 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpAuthCache::nsHttpAuthCache 0x7fa495788050
+2020-06-14 07:34:53.676643 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpAuthCache::nsHttpAuthCache 0x7fa495788078
+2020-06-14 07:34:53.676661 UTC - [Child 30414: Main Thread]: D/nsHttp Creating nsHttpHandler [this=0x7fa495788000].
+2020-06-14 07:34:53.676673 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::SetFastOpenOSSupport version 5.4.0-37-generic
+2020-06-14 07:34:53.676678 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::SetFastOpenOSSupport  supported.
+2020-06-14 07:34:53.676682 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::Init
+2020-06-14 07:34:53.676710 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::PrefsChanged [pref=(null)]
+2020-06-14 07:34:53.676715 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::PrefsChanged Security Pref Changed (null)
+2020-06-14 07:34:53.676770 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::MakeNewRequestTokenBucket this=0x7fa495788000 child=1
+2020-06-14 07:34:53.676811 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::MakeNewRequestTokenBucket this=0x7fa495788000 child=1
+2020-06-14 07:34:53.678054 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::NotifyObservers [chan=0x7fa4957ca040 event="document-on-opening-request"]
+2020-06-14 07:34:53.697154 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::NewProxiedChannel [proxyInfo=(nil)]
+2020-06-14 07:34:53.697175 UTC - [Child 30414: Main Thread]: V/nsHttp Creating HttpBaseChannel @0x7fa49578a030
+2020-06-14 07:34:53.697199 UTC - [Child 30414: Main Thread]: V/nsHttp Creating HttpChannelChild @0x7fa49578a000
+2020-06-14 07:34:53.697248 UTC - [Child 30414: Main Thread]: E/nsHttp HttpBaseChannel::Init [this=0x7fa49578a030]
+2020-06-14 07:34:53.697253 UTC - [Child 30414: Main Thread]: E/nsHttp host=localhost port=4001
+2020-06-14 07:34:53.697257 UTC - [Child 30414: Main Thread]: E/nsHttp uri=http://localhost:4001/
+2020-06-14 07:34:53.697265 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::BuildUserAgent
+2020-06-14 07:34:53.697457 UTC - [Child 30414: Main Thread]: V/nsHttp HttpChannelChild 0x7fa49578a000 ClassOfService=64
+2020-06-14 07:34:53.697497 UTC - [Child 30414: Main Thread]: V/nsHttp HttpChannelChild::ConnectParent [this=0x7fa49578a000, id=5]
+2020-06-14 07:34:53.697524 UTC - [Child 30414: Main Thread]: D/nsSocketTransport STS dispatch [0x7fa4957c6700]
+2020-06-14 07:34:53.697530 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:53.697533 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::MarkFirstSignalTimestamp
+2020-06-14 07:34:53.697541 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::Signal PR_Write 1
+2020-06-14 07:34:53.697549 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     ...returned after 1757 milliseconds
+2020-06-14 07:34:53.697555 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear
+2020-06-14 07:34:53.697568 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear time to signal 0ms
+2020-06-14 07:34:53.697576 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear PR_Read 1
+2020-06-14 07:34:53.697580 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS dispatch [0x7fa4957c66a0]
+2020-06-14 07:34:53.697585 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport OnDispatchedEvent Same Thread Skip Signal
+2020-06-14 07:34:53.697591 UTC - [Child 30414: Socket Thread]: V/nsHttp HttpBackgroundChannelChild::Init [this=0x7fa495b34e70 httpChannel=0x7fa49578a000 channelId=130627135340545]
+2020-06-14 07:34:53.697594 UTC - [Child 30414: Socket Thread]: V/nsHttp HttpBackgroundChannelChild::CreateBackgroundChannel [this=0x7fa495b34e70]
+2020-06-14 07:34:53.697728 UTC - [Child 30414: Socket Thread]: V/nsHttp HttpChannelChild::OnBackgroundChildReady [this=0x7fa49578a000, bgChild=0x7fa495b34e70]
+2020-06-14 07:34:53.697749 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS poll iter
+2020-06-14 07:34:53.697754 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport   calling PR_Poll [active=0 idle=0]
+2020-06-14 07:34:53.697758 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     timeout = -1 milliseconds
+2020-06-14 07:34:53.697821 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:53.697825 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::MarkFirstSignalTimestamp
+2020-06-14 07:34:53.697831 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::Signal PR_Write 1
+2020-06-14 07:34:53.697836 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     ...returned after 0 milliseconds
+2020-06-14 07:34:53.697840 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear
+2020-06-14 07:34:53.697844 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear time to signal 0ms
+2020-06-14 07:34:53.697847 UTC - [Child 30414: Main Thread]: V/nsHttp HttpChannelChild::FinishRedirectSetup [this=0x7fa49578a000]
+2020-06-14 07:34:53.697850 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear PR_Read 1
+2020-06-14 07:34:53.697855 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS dispatch [0x7fa4957c66d0]
+2020-06-14 07:34:53.697859 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport OnDispatchedEvent Same Thread Skip Signal
+2020-06-14 07:34:53.697869 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS poll iter
+2020-06-14 07:34:53.697873 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport   calling PR_Poll [active=0 idle=0]
+2020-06-14 07:34:53.697896 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     timeout = -1 milliseconds
+2020-06-14 07:34:53.700176 UTC - [Child 30414: Chrome_ChildThread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:53.700184 UTC - [Child 30414: Chrome_ChildThread]: D/nsSocketTransport PollableEvent::MarkFirstSignalTimestamp
+2020-06-14 07:34:53.700202 UTC - [Child 30414: Chrome_ChildThread]: D/nsSocketTransport PollableEvent::Signal PR_Write 1
+2020-06-14 07:34:53.700207 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     ...returned after 2 milliseconds
+2020-06-14 07:34:53.700213 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear
+2020-06-14 07:34:53.700219 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear time to signal 0ms
+2020-06-14 07:34:53.700226 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear PR_Read 1
+2020-06-14 07:34:53.700231 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS dispatch [0x7fa4957c66a0]
+2020-06-14 07:34:53.700243 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport OnDispatchedEvent Same Thread Skip Signal
+2020-06-14 07:34:53.700252 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS poll iter
+2020-06-14 07:34:53.700256 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport   calling PR_Poll [active=0 idle=0]
+2020-06-14 07:34:53.700260 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     timeout = -1 milliseconds
+2020-06-14 07:34:53.701748 UTC - [Child 30414: Chrome_ChildThread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:53.701755 UTC - [Child 30414: Main Thread]: V/nsHttp HttpChannelChild::RecvOnStartRequest [this=0x7fa49578a000]
+2020-06-14 07:34:53.701755 UTC - [Child 30414: Chrome_ChildThread]: D/nsSocketTransport PollableEvent::MarkFirstSignalTimestamp
+2020-06-14 07:34:53.701775 UTC - [Child 30414: Main Thread]: V/nsHttp HttpChannelChild::OnStartRequest [this=0x7fa49578a000]
+2020-06-14 07:34:53.701777 UTC - [Child 30414: Chrome_ChildThread]: D/nsSocketTransport PollableEvent::Signal PR_Write 1
+2020-06-14 07:34:53.701790 UTC - [Child 30414: Main Thread]: V/nsHttp HttpBaseChannel::SetApplyConversion [this=0x7fa49578a030 value=1]
+2020-06-14 07:34:53.701796 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     ...returned after 2 milliseconds
+2020-06-14 07:34:53.701799 UTC - [Child 30414: Main Thread]: V/nsHttp HttpChannelChild::DoOnStartRequest [this=0x7fa49578a000]
+2020-06-14 07:34:53.701802 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear
+2020-06-14 07:34:53.701811 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear time to signal 0ms
+2020-06-14 07:34:53.701818 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear PR_Read 1
+2020-06-14 07:34:53.701834 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS dispatch [0x7fa4957c6700]
+2020-06-14 07:34:53.701839 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport OnDispatchedEvent Same Thread Skip Signal
+2020-06-14 07:34:53.701849 UTC - [Child 30414: Socket Thread]: V/nsHttp HttpBackgroundChannelChild::RecvOnStartRequestSent [this=0x7fa495b34e70]
+2020-06-14 07:34:53.701859 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS poll iter
+2020-06-14 07:34:53.701863 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport   calling PR_Poll [active=0 idle=0]
+2020-06-14 07:34:53.701868 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     timeout = -1 milliseconds
+2020-06-14 07:34:53.701819 UTC - [Child 30414: Main Thread]: D/nsSocketTransport STS dispatch [0x7fa4957c66d0]
+2020-06-14 07:34:53.701882 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:53.701886 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::MarkFirstSignalTimestamp
+2020-06-14 07:34:53.701898 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     ...returned after 0 milliseconds
+2020-06-14 07:34:53.701906 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::Signal PR_Write 1
+2020-06-14 07:34:53.701933 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear
+2020-06-14 07:34:53.701938 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear time to signal 0ms
+2020-06-14 07:34:53.701945 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear PR_Read 1
+2020-06-14 07:34:53.701951 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS dispatch [0x7fa4957c6700]
+2020-06-14 07:34:53.701955 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport OnDispatchedEvent Same Thread Skip Signal
+2020-06-14 07:34:53.701962 UTC - [Child 30414: Socket Thread]: V/nsHttp HttpBackgroundChannelChild::OnStartRequestReceived [this=0x7fa495b34e70]
+2020-06-14 07:34:53.701969 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS poll iter
+2020-06-14 07:34:53.701974 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport   calling PR_Poll [active=0 idle=0]
+2020-06-14 07:34:53.701978 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     timeout = -1 milliseconds
+2020-06-14 07:34:53.703113 UTC - [Child 30414: Chrome_ChildThread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:53.703121 UTC - [Child 30414: Chrome_ChildThread]: D/nsSocketTransport PollableEvent::MarkFirstSignalTimestamp
+2020-06-14 07:34:53.703135 UTC - [Child 30414: Chrome_ChildThread]: D/nsSocketTransport PollableEvent::Signal PR_Write 1
+2020-06-14 07:34:53.703167 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     ...returned after 1 milliseconds
+2020-06-14 07:34:53.703172 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear
+2020-06-14 07:34:53.703177 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear time to signal 0ms
+2020-06-14 07:34:53.703183 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport PollableEvent::Clear PR_Read 1
+2020-06-14 07:34:53.703189 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS dispatch [0x7fa4957c66d0]
+2020-06-14 07:34:53.703193 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport OnDispatchedEvent Same Thread Skip Signal
+2020-06-14 07:34:53.703223 UTC - [Child 30414: Socket Thread]: V/nsHttp HttpBackgroundChannelChild::RecvOnStopRequest [this=0x7fa495b34e70]
+2020-06-14 07:34:53.703229 UTC - [Child 30414: Socket Thread]: V/nsHttp HttpChannelChild::ProcessOnStopRequest [this=0x7fa49578a000]
+2020-06-14 07:34:53.703245 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport STS poll iter
+2020-06-14 07:34:53.703251 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport   calling PR_Poll [active=0 idle=0]
+2020-06-14 07:34:53.703255 UTC - [Child 30414: Socket Thread]: D/nsSocketTransport     timeout = -1 milliseconds
+2020-06-14 07:34:53.704028 UTC - [Child 30414: Main Thread]: V/nsHttp HttpChannelChild::OnStopRequest [this=0x7fa49578a000 status=804b000d]
+2020-06-14 07:34:53.704037 UTC - [Child 30414: Main Thread]: V/nsHttp HttpChannelChild::DoPreOnStopRequest [this=0x7fa49578a000 status=804b000d]
+2020-06-14 07:34:53.704041 UTC - [Child 30414: Main Thread]: V/nsHttp HttpChannelChild::DoOnStopRequest [this=0x7fa49578a000]
+2020-06-14 07:34:53.704045 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::NotifyObservers [chan=0x7fa49578a070 event="http-on-stop-request"]
+2020-06-14 07:34:53.710849 UTC - [Child 30414: Main Thread]: D/nsHttp nsHttpHandler::NotifyObservers [chan=0x7fa4957ca160 event="document-on-opening-request"]
+2020-06-14 07:34:53.711000 UTC - [Child 30414: Main Thread]: V/nsHttp HttpChannelChild::CleanupBackgroundChannel [this=0x7fa49578a000 bgChild=0x7fa495b34e70]
+2020-06-14 07:34:53.711007 UTC - [Child 30414: Main Thread]: D/nsSocketTransport STS dispatch [0x7fa4957c6910]
+2020-06-14 07:34:53.711013 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:53.711017 UTC - [Child 30414: Main Thread]: D/nsSocketTransport PollableEvent::MarkFirstSignalTimestamp
+2020-06-14 07:34:53.711039 UTC - [Child 30414: Socket Thread]:

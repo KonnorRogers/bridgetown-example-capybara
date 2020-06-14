@@ -1,0 +1,63 @@
+2020-06-14 07:34:52.074915 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport STS thread init 1000 sockets
+2020-06-14 07:34:52.074915 UTC - [Child 30431: Main Thread]: D/nsSocketTransport STS dispatch [0x7f506735da90]
+2020-06-14 07:34:52.074948 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport PollableEvent() using pipe
+2020-06-14 07:34:52.074969 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport PollableEvent() ctor ok
+2020-06-14 07:34:52.074972 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport PollableEvent::MarkFirstSignalTimestamp
+2020-06-14 07:34:52.074990 UTC - [Child 30431: Main Thread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:52.074991 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport STS poll iter
+2020-06-14 07:34:52.075009 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport PollableEvent::AdjustFirstSignalTimestamp
+2020-06-14 07:34:52.075013 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport   calling PR_Poll [active=0 idle=0]
+2020-06-14 07:34:52.075018 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport     timeout = 0 milliseconds
+2020-06-14 07:34:52.075019 UTC - [Child 30431: Main Thread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:52.075026 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport     ...returned after 0 milliseconds
+2020-06-14 07:34:52.075031 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport PollableEvent::Clear
+2020-06-14 07:34:52.075034 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport PollableEvent::Clear time to signal 0ms
+2020-06-14 07:34:52.075040 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport PollableEvent::Clear PR_Read 1
+2020-06-14 07:34:52.075045 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport STS dispatch [0x7f506735dbe0]
+2020-06-14 07:34:52.075047 UTC - [Child 30431: Main Thread]: D/nsSocketTransport PollableEvent::Signal
+2020-06-14 07:34:52.075052 UTC - [Child 30431: Main Thread]: D/nsSocketTransport PollableEvent::MarkFirstSignalTimestamp
+2020-06-14 07:34:52.075064 UTC - [Child 30431: Main Thread]: D/nsSocketTransport PollableEvent::Signal PR_Write 1
+2020-06-14 07:34:52.075074 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport OnDispatchedEvent Same Thread Skip Signal
+2020-06-14 07:34:52.075078 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport nsSocketTransportService::OnKeepaliveEnabledPrefChange enabled
+2020-06-14 07:34:52.075083 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport STS poll iter
+2020-06-14 07:34:52.075085 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport PollableEvent::AdjustFirstSignalTimestamp
+2020-06-14 07:34:52.075088 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport   calling PR_Poll [active=0 idle=0]
+2020-06-14 07:34:52.075090 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport     timeout = -1 milliseconds
+2020-06-14 07:34:52.075094 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport     ...returned after 0 milliseconds
+2020-06-14 07:34:52.075096 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport PollableEvent::Clear
+2020-06-14 07:34:52.075098 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport PollableEvent::Clear time to signal 0ms
+2020-06-14 07:34:52.075102 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport PollableEvent::Clear PR_Read 1
+2020-06-14 07:34:52.075104 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport STS poll iter
+2020-06-14 07:34:52.075106 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport   calling PR_Poll [active=0 idle=0]
+2020-06-14 07:34:52.075108 UTC - [Child 30431: Socket Thread]: D/nsSocketTransport     timeout = -1 milliseconds
+2020-06-14 07:34:52.439839 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f50765ca8b8]
+2020-06-14 07:34:52.445088 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f50765caa38]
+2020-06-14 07:34:52.448896 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f50765cabb8]
+2020-06-14 07:34:52.451965 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f50765cad38]
+2020-06-14 07:34:52.476604 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpAuthCache::nsHttpAuthCache 0x7f5065aca850
+2020-06-14 07:34:52.476623 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpAuthCache::nsHttpAuthCache 0x7f5065aca878
+2020-06-14 07:34:52.476633 UTC - [Child 30431: Main Thread]: D/nsHttp Creating nsHttpHandler [this=0x7f5065aca800].
+2020-06-14 07:34:52.476651 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpHandler::SetFastOpenOSSupport version 5.4.0-37-generic
+2020-06-14 07:34:52.476657 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpHandler::SetFastOpenOSSupport  supported.
+2020-06-14 07:34:52.476661 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpHandler::Init
+2020-06-14 07:34:52.476697 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpHandler::PrefsChanged [pref=(null)]
+2020-06-14 07:34:52.476702 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpHandler::PrefsChanged Security Pref Changed (null)
+2020-06-14 07:34:52.476754 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpHandler::MakeNewRequestTokenBucket this=0x7f5065aca800 child=1
+2020-06-14 07:34:52.476800 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpHandler::MakeNewRequestTokenBucket this=0x7f5065aca800 child=1
+2020-06-14 07:34:52.476930 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpHandler::NotifyObservers [chan=0x7f506b4a3280 event="document-on-opening-request"]
+2020-06-14 07:34:52.478589 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpHandler::NotifyObservers [chan=0x7f506b4a33a0 event="document-on-opening-request"]
+2020-06-14 07:34:52.480213 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpHandler::NotifyObservers [chan=0x7f506b4a34c0 event="document-on-opening-request"]
+2020-06-14 07:34:52.481621 UTC - [Child 30431: Main Thread]: D/nsHttp nsHttpHandler::NotifyObservers [chan=0x7f506b4a35e0 event="document-on-opening-request"]
+2020-06-14 07:34:52.511057 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f506b4103a8]
+2020-06-14 07:34:52.511169 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f506b410538]
+2020-06-14 07:34:52.511285 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f506b4106c8]
+2020-06-14 07:34:52.511369 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f506b4109e8]
+2020-06-14 07:34:52.529282 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f506b4130f8]
+2020-06-14 07:34:52.544549 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f506b414868]
+2020-06-14 07:34:52.544728 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f506b4149f8]
+2020-06-14 07:34:52.547979 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f506b414b88]
+2020-06-14 07:34:52.548401 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f506b414d18]
+2020-06-14 07:34:52.548593 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f506b414ea8]
+2020-06-14 07:34:52.548776 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f50660f8088]
+2020-06-14 07:34:52.548954 UTC - [Child 30431: Main Thread]: D/nsHttp NS_CompareLoadInfoAndLoadContext - loadInfo: 0, 0; loadContext: 0, 0. [channel=0x7f50660f8218]
+2020-06-14 07:34:52.549148 UTC - [Child 30431: Main Thread]
