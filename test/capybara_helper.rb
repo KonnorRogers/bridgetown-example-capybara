@@ -41,7 +41,10 @@ Capybara.app = Rack::Builder.new do
 end.to_app
 
 Capybara.register_driver :apparition do |app|
-  Capybara::Apparition::Driver.new(app, {})
+  options = {
+    headless: false
+  }
+  Capybara::Apparition::Driver.new(app, options)
 end
 
 # port and url to webpack server
